@@ -5,4 +5,6 @@ package org.springframework.mytest.beans.service;
  * @Data:2023/7/16
  */
 public interface UserService {
+
+	public void queryUserInfo();
 }

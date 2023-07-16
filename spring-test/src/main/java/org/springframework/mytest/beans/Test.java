@@ -15,5 +15,6 @@ public class Test {
 		CacheManager cacheManager = (CacheManager) context.getBean("cacheManager");
 
 		cacheManager.set("test", "Hello World!");
+
 	}
 }
